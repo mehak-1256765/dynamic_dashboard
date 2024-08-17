@@ -1,0 +1,28 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "CSPM Executive Dashboard",
+        "widgets": [
+          {
+            "id": 101,
+            "name": "Widget 1",
+            "text": "Random text for widget 1",
+            "progress": 50
+          },
+          {
+            "id": 102,
+            "name": "Widget 2",
+            "text": "Random text for widget 2",
+            "progress": 70
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "CWPP Dashboard",
+        "widgets": []
+      }
+    ]
+  }
+  
