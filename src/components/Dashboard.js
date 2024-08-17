@@ -308,7 +308,7 @@ const Dashboard = () => {
     display: 'flex',
     justifyContent: 'center',
     color: 'WHITE',
-    marginLeft:'20%',
+    marginLeft:'0%',
   
   }}
 >
