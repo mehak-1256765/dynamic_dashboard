@@ -55,7 +55,7 @@ const initialData = {
         },
         {
           id: 2,
-          name: "Cloud Account Risk Assessment",
+          name: "Cloud  Risk Assessment",
           type: "circular",
           data: [
             { name: 'Failed', value: 10 },
@@ -227,7 +227,7 @@ const Dashboard = () => {
     return (
       <Box sx={{ p: 2, bgcolor: theme.palette.background.paper, borderRadius: 1 }}>
         <Typography variant="h6">{widget.name}</Typography>
-        <BarChart width={320} height={280} data={data}>
+        <BarChart width={290} height={280} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
@@ -308,7 +308,7 @@ const Dashboard = () => {
     display: 'flex',
     justifyContent: 'center',
     color: 'WHITE',
-    marginLeft:'0%',
+    // marginLeft:'0%',
   
   }}
 >
